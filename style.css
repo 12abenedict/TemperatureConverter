@@ -6,7 +6,10 @@
 h1{
     text-align: center;
 }
-
+input {
+    width: 50%;
+    border-radius: 13px;
+}
 input[type="number"] {
     color: black;
 }
@@ -25,7 +28,7 @@ input[type="number"] {
     /* display: flex; */
     /* position: absolute; */
     text-align: center;
-    border: 1px solid antiquewhite;
+    border: 2px solid antiquewhite;
     border-radius: 15px;
     margin: 30px auto;
     padding: 10px 0px;
@@ -34,6 +37,7 @@ input[type="number"] {
 
 ::placeholder{
     color: black;
+    text-align: center;
 }
 
 
