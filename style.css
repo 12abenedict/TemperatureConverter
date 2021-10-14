@@ -2,6 +2,7 @@
     font-family: Montserrat;
     color: antiquewhite;
     background-image: url('highlands.jpg');
+    background-size: cover;
 }
 h1{
     text-align: center;
