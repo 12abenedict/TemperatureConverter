@@ -1,0 +1,28 @@
+* {
+    font-family: Montserrat;
+    color: antiquewhite;
+    background-image: url('highlands.jpg');
+}
+h1{
+    text-align: center;
+}
+
+div {
+    text-align: center; 
+}
+
+.fc {
+    border: 1px solid antiquewhite;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 10px 0px;
+}
+.cf {
+    border: 1px solid antiquewhite;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 10px 0px;
+}
+
+
+

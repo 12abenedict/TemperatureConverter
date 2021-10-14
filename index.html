@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fahrenheit to Celsius Converter</title>
+  </head>
+  <body>
+      <h1>Temperature Converter</h1>
+    <!-- Fahrenheit to Celsius -->
+    <div class="fc">
+      <h3>Fahrenheit to Celsius</h3>
+      <p>
+        <!-- <label>Fahrenheit</label> -->
+        <input
+          id="inputFahrenheit"
+          type="number"
+          placeholder="Fahrenheit"
+          oninput="temperatureConverterFC(this.value)"
+          onchange="temperatureConverterFC(this.value)"
+        />
+      </p>
+      <p>Celsius: <span id="outputCelsius"></span></p>
+    </div>
+
+    <!-- Celsius to Fahrenheit -->
+    <div class="cf">
+      <h3>Celsius to Fahrenheit</h3>
+      <p>
+        <!-- <label>Celsius</label> -->
+        <input
+          id="inputCelsius"
+          type="number"
+          placeholder="Celsius"
+          oninput="temperatureConverterCF(this.value)"
+          onchange="temperatureConverterCF(this.value)"
+        />
+      </p>
+      <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+    </div>
+
+    <script src="fc.js"></script>
+  </body>
+</html>
