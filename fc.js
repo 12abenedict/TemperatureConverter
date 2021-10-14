@@ -1,4 +1,3 @@
-// When the input field receives input, convert the value from fahrenheit to celsius
 
 // Fahrenheit to Celsius
 function temperatureConverterFC(valNum) {
